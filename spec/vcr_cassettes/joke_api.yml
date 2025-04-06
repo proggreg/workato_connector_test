@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://official-joke-api.appspot.com/random_joke
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Host:
+      - official-joke-api.appspot.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - W/"9e-zF3V77UAIuTNqPOip5Cq/drX5ck"
+      X-Cloud-Trace-Context:
+      - ee65afd3690a9ee490b6e4ebd253107a
+      Date:
+      - Sun, 06 Apr 2025 15:21:42 GMT
+      Server:
+      - Google Frontend
+      Alt-Svc:
+      - h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"type":"knock-knock","setup":"Knock knock. \n Who''s there? \n Little
+        old lady. \n Little old lady who?","punchline":"I didn''t know you could yodel!","id":13}'
+  recorded_at: Sun, 06 Apr 2025 15:21:42 GMT
+recorded_with: VCR 6.3.1
